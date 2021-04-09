@@ -130,7 +130,7 @@ slingshot.attach(polygon.polygon)
 
 
  async function getTime (){
-var talk = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+var talk = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
 var response =  await talk.json()
 console.log(response)
 
